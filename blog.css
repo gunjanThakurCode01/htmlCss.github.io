@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar style */
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* searchbox style */
+#searchbox {
+    border: 4px solid rgb(128, 126, 126);
+    height: 30px;
+    width: 20pc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border-radius: 15px;
+    margin-left: 20pc;
+    border-style: groove;
+
+}
+#navbar ul li:hover {
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+.heading{
+    display: flex;
+    font-size: 36px;
+    text-align: center;
+    color: #561616;
+    margin-top: 0px;
+    background-color: rgb(238, 235, 235);
+    height: 33pc;
+    width: 25pc;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.heading::before {
+    content: "";
+    position: absolute;
+    background-image: url("image/bg.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 54.2pc;
+    margin-left: 23.5pc;
+    margin-top: -50px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    ;
+}
+
+.recipe_section  {
+    background-color: rgb(238, 235, 235);
+    margin: 0px 0px;
+    height: 70pc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6b1111;
+    background-color: white;
+    padding: 20px 20px ;
+    margin: 50px 25px;
+    height: 26pc;
+    width: 18pc;
+    border-radius: 15px;
+    
+}
+
+.box:hover{
+    box-shadow: 20px 20px 10px grey;
+    
+}
+
+.box img {
+    height: 13pc;
+    width: 18pc;
+    border-radius: 10px;
+    margin: -14px 0px;
+    
+}
+
+.boxContent {
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+.box a {
+    text-decoration: none;
+    color: red;
+}
+
+.box a:hover {
+    font-size: larger;
+}
+
+.seperator {
+    border: 1px solid #561616;
+    margin: 10px 0px;
+}
+footer{
+    background-color: #1e1d1d;
+    display: flex;
+    justify-content: center;
+}
+
+.recipeSubmit {
+    margin-left: 25pc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.recipeSubmit h1 {
+    color: palevioletred;
+    font-size: 2.5em;
+}
+
+.querybox {
+    margin: 10px 10px;
+    font-size: medium;
+    border: 4px solid rgb(120, 117, 117);
+    border-radius: 5px;
+    border-style: groove;
+    padding: 5px 5px;
+    width: 18pc;
+}
+
+#submit {
+    margin: 18px 10px;
+    font-size: large;
+    border: 2px solid grey;
+    border-style: groove;
+    border-radius: 4px;
+    padding: 10px 10px;
+    background-color: palevioletred;
+    color: white;
+}
+
+#submit:hover {
+    box-shadow: 0 2px 2px 0 rgb(213, 177, 189),0 2px 2px 0 rgb(213, 177, 189);
+}
+
+#submit:active {
+    font-size: medium;
+}
+
+.footerHeading h1 {
+    color: slateblue; 
+    font-size: 5pc;
+}
+
+.footerHeading img {
+    height: 3pc;
+    margin: 10px 10px;
+    mix-blend-mode: lighten;
+}
+
